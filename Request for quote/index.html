@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <title>Request for Quote</title>
+</head>
+<body>
+    <h1>Request For Quote</h1>
+    <ol class="list-item">
+        <li>&#x2460 Submit a RFQ in just 1 minute</li>
+        <li>② Get a quotation from us</li>
+        <li>③ Customer quote approval</li>
+        <li>Inspection and shipping</li>
+    </ol><br><br><br>
+<form id="quote" method="post">
+    <label for="name-label">Name:</label>
+    <input type="text" id="name" placeholder="Enter Full Name"  name="name" required><br><br>
+    <label for="email-label">Email:</label>
+    <input type="email" id="email" placeholder="Enter your email" name="email" required><br><br>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone"  placeholder="Phone No" name="phone" required><br><br>
+    <label for="Request">Request:</label>
+    <textarea name="Request" id="Request" cols="50" rows="5" required></textarea><br><br>
+    <label for="product-image">Product Image/Attachment:</label>
+    <input type="file" id="product-image" name="product-image">
+
+    <label for="dropdown">Sourcing Type</label>
+    <select id="dropdown">
+        <option value="select-one" disabled selected>Select One</option><br>
+        <option value="direct-purchase">Direct Purchase</option><br>
+        <option value="for-budget">For Budget</option><br>
+        <option value="price-comparision">Price Comparision</option><br>
+    </select><br>
+    <h2>Company Details</h2>
+    <label for="name-label">Company Name:</label>
+    <input type="text" id="company-name" placeholder="Enter company name"  name="name"><br><br>
+    <label for="email-label">Company Email:</label>
+    <input type="email" id="email" placeholder="Enter company email" name="email"><br><br>
+    <label for="Address">Company Address:</label>
+    <textarea name="address" id="address" cols="90" rows="2" placeholder="Enter company address"></textarea>
+    
+    <button type="submit" id="submit">Submit</button>
+</form>
+</body>
+</html>

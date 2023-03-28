@@ -1,0 +1,44 @@
+input, textarea {
+    border: 1px solid green;
+    width:20%;
+    padding: 5px;
+    color: #424532;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+label {
+    font-weight: bold;
+    color:rgb(78, 78, 152);
+    width: 50%;
+}
+
+body {
+    background-color: rgb(250, 248, 246);
+}
+
+button[type='submit'] {
+    background-color: rgb(96, 142, 199);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+}
+button[type='submit']:hover {
+    background-color: gray;
+}
+
+ol, li {
+    display: inline;
+    background-color: #dcddd5;
+    border-radius: 3%;
+    padding: 15px;
+    margin: 15px;
+}
+.li {
+    display: inline;
+    padding: 0px 5px 0px 5px;
+}
+
+
+
